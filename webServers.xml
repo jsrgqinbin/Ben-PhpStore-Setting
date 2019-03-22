@@ -1,0 +1,94 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="489c84c9-1ec5-49ff-b7ba-4146d4b4589f" name="47.96.19.169-BOSS-ONLINE" url="http://47.96.19.169">
+        <fileTransfer host="47.96.19.169" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/wwwroot/public/dashboard/current" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="10022" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a7c6a9e1-3541-4120-a0b8-e9166b54e47c" name="172.16.0.33-33DEV-BOSS" url="http://dev-boss.thebizark.com">
+        <fileTransfer host="172.16.0.33" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/wwwroot/public/dashboard/development" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="10022" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="386fb6ae-21bd-41f3-9f94-d9a2e69667c8" name="172.16.0.37-TEST" url="http://172.16.0.37">
+        <fileTransfer host="172.16.0.37" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/wwwroot/public/dashboard/production" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="10022" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5e910047-405c-469e-9576-f954486b3537" name="47.52.238.187-HK1" url="http://47.52.238.187">
+        <fileTransfer host="47.52.238.187" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/wwwroot/v2.narigroup.com" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="10022" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8b2f7a7c-89fb-4f1f-ab0e-9db7a520d311" name="B2C.ONLINE" url="http://184.173.99.50">
+        <fileTransfer host="184.173.99.50" port="22" rootFolder="/ketai" accessType="SFTP" username="root" password="df9fdfc3dff8df8cdf89dfd2df9fdfe7dfeedf8edfdcdfc1dff4dfc3dfdbdf80dfc5df9e">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7aab6585-bf31-4b47-b746-34e0b685f2c1" name="046-ELFSACK.COM-SSH" url="http://www.bizarkdeal.com">
+        <fileTransfer host="198.58.98.164" port="22" accessType="SFTP" username="root" password="df9bdf98df99dfdbdfdddfcfdfd0dfd2dfc9dfcbdfd9dfce">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="daf39b4e-1db6-4632-9ac2-329023fb7a4d" name="61.155.8.174-NJ" url="http://61.155.8.174:8081">
+        <fileTransfer host="61.155.8.174" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9182481f-a9d7-4cb8-88d4-375c04c24de1" name="23.92.26.150-yvettesportsbra.com" url="http://www.yvettesportsbra.com">
+        <fileTransfer host="23.92.26.150" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0df15b07-0389-4027-9d8a-ef51e465e1ca" name="61.155.8.174-VMOTO" url="http://61.155.8.174">
+        <fileTransfer host="61.155.8.174" port="21" username="vmoto" password="dfdedfefdfefdfcedfccdffadfe4dfcfdfc4dff2df9ddfd9dfe1dfc3dfd3dfed">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="151ff857-0fb7-4eef-a7fd-53ea7e1df730" name="96.126.126.114-BD" url="http://96.126.126.114">
+        <fileTransfer host="96.126.126.114" port="22" accessType="SFTP" username="root" password="df9cdf9bdffadfc9df80df9fdfc7dfc8dff3dfe1dfe8dfeddfefdfd2df9adff3df89df8bdfe7dfcedfdbdf9ddff8df9b">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fb7bdbec-a685-4ab5-bcb4-1f66c4bb0aa4" name="BIZARK.B2B.ONLINE.WEB" url="http://admin.b2c.opococ.com/">
+        <fileTransfer host="184.173.99.50" port="22" rootFolder="/ketai" accessType="SFTP" username="root" password="dff8dfe7df89dfd2df9fdfc3dfc1dff4dfeedf8edfdcdf8cdf9fdfc3dfdbdf80dfc5df9e">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,13 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP" />
+      <blacklist language="PHP">
+        <added pattern="\app(make,parameters)" />
+        <added pattern="\OrderLogService.log(orderModel,action,msg)" />
+        <added pattern="\App\Support\WebAppRequest.setInputItem(key,value,skipExists)" />
+        <added pattern="\Illuminate\Database\Eloquent\Concerns\HasRelationships.hasMany(related,foreignKey,localKey)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

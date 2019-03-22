@@ -1,0 +1,8 @@
+<keymap version="1" name="Default copy 0" parent="Mac OS X 10.5+">
+  <action id="ChangesView.UnshelveSilently" />
+  <action id="PublishGroup.UploadTo">
+    <keyboard-shortcut first-keystroke="shift meta alt x" />
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
+</keymap>

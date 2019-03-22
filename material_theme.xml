@@ -1,0 +1,25 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="arrowsStyle" value="Plus-Minus" />
+    <option name="highlightColorEnabled" value="true" />
+    <option name="isCompactStatusBar" value="true" />
+    <option name="isHighContrast" value="true" />
+    <option name="isWizardShown" value="true" />
+    <option name="monochromeIcons" value="true" />
+    <option name="pristineConfig" value="false" />
+    <option name="treeFontSizeEnabled" value="true" />
+    <option name="upperCaseButtons" value="false" />
+    <option name="useMaterialFont" value="false" />
+    <option name="useProjectViewDecorators" value="false" />
+    <option name="tabOpacity" value="57" />
+    <option name="treeFontSize" value="14" />
+    <option name="highlightThickness" value="3" />
+    <option name="settingsSelectedTab" value="6" />
+    <option name="tabsHeight" value="31" />
+    <option name="accentColor" value="ff1719" />
+    <option name="highlightColor" value="7cb342" />
+    <option name="selectedTheme" value="MONOKAI" />
+    <option name="userId" value="-48b6e44b:1660e317c05:-7fff" />
+    <option name="version" value="3.5.0.1" />
+  </component>
+</application>

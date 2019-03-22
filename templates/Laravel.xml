@@ -1,0 +1,256 @@
+<templateSet group="Laravel">
+  <template name="r::g" value="get('$URI$','');" description="Route::get()" toReformat="false" toShortenFQNames="true">
+    <variable name="URI" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="controller" value="&lt;?php&#10;&#10;class $NAME$ extends BaseController {&#10;&#10;&#9;/**&#10;&#9; * Display a listing of the resource.&#10;&#9; *&#10;&#9; * @return Response&#10;&#9; */&#10;&#9;public function index()&#10;&#9;{&#10;        return View::make('users.index');&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * Show the form for creating a new resource.&#10;&#9; *&#10;&#9; * @return Response&#10;&#9; */&#10;&#9;public function create()&#10;&#9;{&#10;        return View::make('users.create');&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * Store a newly created resource in storage.&#10;&#9; *&#10;&#9; * @return Response&#10;&#9; */&#10;&#9;public function store()&#10;&#9;{&#10;&#9;&#9;//&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * Display the specified resource.&#10;&#9; *&#10;&#9; * @param  int  $id&#10;&#9; * @return Response&#10;&#9; */&#10;&#9;public function show($id)&#10;&#9;{&#10;        return View::make('users.show');&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * Show the form for editing the specified resource.&#10;&#9; *&#10;&#9; * @param  int  $id&#10;&#9; * @return Response&#10;&#9; */&#10;&#9;public function edit($id)&#10;&#9;{&#10;        return View::make('users.edit');&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * Update the specified resource in storage.&#10;&#9; *&#10;&#9; * @param  int  $id&#10;&#9; * @return Response&#10;&#9; */&#10;&#9;public function update($id)&#10;&#9;{&#10;&#9;&#9;//&#10;&#9;}&#10;&#10;&#9;/**&#10;&#9; * Remove the specified resource from storage.&#10;&#9; *&#10;&#9; * @param  int  $id&#10;&#9; * @return Response&#10;&#9; */&#10;&#9;public function destroy($id)&#10;&#9;{&#10;&#9;&#9;//&#10;&#9;}&#10;&#10;}&#10;" description="Resourceful Controller" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="false" />
+    </context>
+  </template>
+  <template name="html5" value="&lt;!doctype html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;&lt;/title&gt;&#10;&#10;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;&#10;&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;&#10;&#10;&lt;!-- stylesheets --&gt;&#10;&lt;link rel=&quot;stylesheet&quot; href=&quot;http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&gt;&#10;&#10;&lt;!-- javascript/jQuery --&gt;&#10;&lt;script src=&quot;http://code.jquery.com/jquery-1.11.0.min.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&#10;&#10;&lt;!--[if lt IE 9]&gt;&#10;&lt;script src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js&quot;&gt;&lt;/script&gt;&#10;&lt;script src=&quot;http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.js&quot;&gt;&lt;/script&gt;&#10;&lt;![endif]--&gt;&#10;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&#10;&#10;&#10;&lt;/body&gt;&#10;&lt;/html&gt;" description="HTML Boilerplate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="htaccess" value="&lt;IfModule mod_rewrite.c&gt;&#10;    RewriteEngine on&#10;    RewriteCond %{REQUEST_URI} !^public&#10;    RewriteRule ^(.*)$ public/$1 [L]&#10;&lt;/IfModule&gt;" shortcut="TAB" description="Laravel HTACCESS file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="meth" value=" public function $name$()&#10; {&#10; &#10; }" description="Creates new public function method" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="methodname" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="domready" value="&lt;script type=&quot;text/javascript&quot;&gt;&#10;     $(document).ready(function(){&#10;         &#10;        &#10;     });&#10;&lt;/script&gt;" description="jQuery document ready" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="helperclass" value="&lt;?php&#10;&#10;/*&#10; * Helpers for quick easy use&#10; */&#10;&#10;     function humanDate($string)&#10;     {&#10;          // returns string into 01 Dec 2000 for example&#10;          return date('m M Y', strtotime($string));&#10;     }&#10;&#10;     function date_now()&#10;     {&#10;          // returns current time/date&#10;          return date('Y-m-d H:i:s');&#10;     }&#10;&#10;     function lower($string)&#10;     {&#10;          // converts given string to lowercase&#10;          return strtolower($string);&#10;     }&#10;&#10;     function seo($string)&#10;     {&#10;          // Little help to string replace  to SEO friendly URL&#10;          return str_replace(' ', '-', $string);&#10;     }&#10;&#10;     function ago($string)&#10;     {&#10;          return \Carbon\Carbon::createFromTimeStamp(strtotime($string))-&gt;diffForHumans();&#10;     }" description="Full helper class for dates etc" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="formgroup" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-2&quot;&gt;$NAME$&lt;/div&gt;&#10;    &lt;div class=&quot;col-lg-5&quot;&gt;&#10;        &lt;input type=&quot;text&quot; name=&quot;$VALUE$&quot; class=&quot;form-control&quot; value=&quot;{!! old('$VALUE$') !!}&quot;&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Bootstrap Form Group" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="decapitalize(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="comment" value="// $var$&#10;" description="Comments each line" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="v::m" value="return view('', compact(''));" description="View make" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="unix_sock" value="'unix_socket'   =&gt; '/Applications/MAMP/tmp/mysql/mysql.sock'," description="Unix Socket for locahost" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="haserrors" value="@if (count($errors) &gt; 0)&#10;    &lt;div class=&quot;alert alert-danger&quot;&gt;&#10;        &lt;strong&gt;Whoops!&lt;/strong&gt; There were some problems with your input.&lt;br&gt;&lt;br&gt;&#10;        &lt;ul&gt;&#10;            @foreach ($errors-&gt;all() as $error)&#10;                &lt;li&gt;{{ $error }}&lt;/li&gt;&#10;            @endforeach&#10;        &lt;/ul&gt;&#10;    &lt;/div&gt;&#10;@endif" description="Has errors" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="validator" value="        $rules = array(&#10;            'name'        =&gt; 'required',&#10;        );&#10;&#10;        $validator = Validator::make(Input::all(), $rules);&#10;&#10;        // Validation fails&#10;        if ($validator-&gt;fails())&#10;        {&#10;            return Redirect::back()-&gt;withErrors($validator)-&gt;withInput();&#10;        }&#10;        &#10;        else&#10;        {&#10;        &#10;        &#10;        }" description="Laravel Validator Setup" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="metag" value="&lt;meta http-equiv=&quot;cache-control&quot; content=&quot;max-age=0&quot; /&gt;&#10;&lt;meta http-equiv=&quot;cache-control&quot; content=&quot;no-cache&quot; /&gt;&#10;&lt;meta http-equiv=&quot;expires&quot; content=&quot;0&quot; /&gt;&#10;&lt;meta http-equiv=&quot;expires&quot; content=&quot;Tue, 01 Jan 1980 1:00:00 GMT&quot; /&gt;&#10;&lt;meta http-equiv=&quot;pragma&quot; content=&quot;no-cache&quot; /&gt;&#10;&#10;" description="Meta Group, cache etc." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="hassession" value="@if (Session::has('flash_error'))&#10;    &lt;div class=&quot;alert alert-danger&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;{{ Session::get('flash_error') }}&lt;/div&gt;&#10;@endif&#10;&#10;@if (Session::has('flash_notice'))&#10;    &lt;div class=&quot;alert alert-info&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;{{ Session::get('flash_notice') }}&lt;/div&gt;&#10;@endif&#10;&#10;@if (Session::has('flash_success'))&#10;    &lt;div class=&quot;alert alert-success&quot;&gt;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;{{ Session::get('flash_success') }}&lt;/div&gt;&#10;@endif" description="Session::has() Uses bootstrap 3" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mailsend" value=" $data = array(&#10;    'fname' =&gt; $fname,&#10;    'lname' =&gt; $lname,&#10;    'email'     =&gt; $email,&#10;    'username'  =&gt; $username&#10;);&#10;// Send the email&#10;Mail::send('emails/registration', $data, function( $message ) use ($data)&#10;{&#10;    $message-&gt;to($data['email'])&#10;            -&gt;from('noreply@')&#10;            -&gt;subject('Subject Field');&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="r::p" value="post('','');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="slideremove" value="&lt;script&gt;&#10;        window.setTimeout(function() {&#10;            $(&quot;.alert&quot;).delay(600, 0).slideUp(190, function(){&#10;              $(this).remove();&#10;            });&#10;         }, 3000);&#10;     &lt;/script&gt;" description="Javascript slide/remove" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="psr4" value="&quot;psr-4&quot;: {&#10;     &quot;NAme\\&quot; : &quot;app/Name&quot;&#10;}" description="Autoloading PSR-4" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="env" value="$env = $app-&gt;detectEnvironment(function()&#10;{&#10;    return getenv('APP_ENV') ?: 'local';&#10;});" description="Detect ENV" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="onclick" value="onclick=&quot;return confirm('Are you sure you want to remove this?')&quot;" description="Onlick confirmation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="r::r" value="resource('$URI$', '$URI$Controller');" description="Route Resource" toReformat="false" toShortenFQNames="true">
+    <variable name="URI" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="hasfile" value="if ($request-&gt;hasFile('$NAME$')){&#10;    $file = $request-&gt;file('$NAME$');&#10;    $name = Str::random(25).'.'.$file-&gt;getClientOriginalExtension();&#10;    $image = Image::make($request-&gt;file('$NAME$')-&gt;getRealPath())-&gt;resize(110, 65, function ($constraint) {&#10;        $constraint-&gt;aspectRatio();&#10;    });&#10;    $image-&gt;save(public_path() . '/uploads/company/' . $name);&#10;    $company-&gt;logo = $name;&#10;}" description="Has a file" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="formmodel" value="{!! Form::model($NAME$, ['method' =&gt; 'PUT', 'route' =&gt; ['product.update', $NAME$-&gt;id], 'class' =&gt; 'form-horizontal']) !!}" description="Form model binding" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="r::v" value="return view('', compact(''));" description="Return View make" toReformat="false" toShortenFQNames="true" />
+  <template name="isactive" value="{{ Request::is('') ? 'active' : '' }}" description="Set active state in nav" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mailerclass" value="&lt;?php&#10;&#10;abstract class Mailer {&#10;&#10;    public function sendTo($user, $subject, $view, $data = [])&#10;    {&#10;         Mail::send($view, $data, function( $message ) use ($user, $subject)&#10;         {&#10;             $message-&gt;to($user-&gt;email)&#10;                     //-&gt;from('noreply@')&#10;                     -&gt;subject($subject);&#10;         });&#10;    }&#10;&#10;} " description="Boilerplate for creating a Mailer class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="homestead_local" value="'host' =&gt; '127.0.0.1:33060', //to connect via php artisan serve to Homestead&#10;            'database' =&gt; 'bookstore',&#10;            'username' =&gt; 'homestead',&#10;            'password' =&gt; 'secret'," description="Connect to Homestead by http://localhost:8000 (php artisan serve)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="formbtn" value="&lt;div class=&quot;form-group&quot;&gt;&#10;     &lt;div class=&quot;col-lg-3&quot;&gt;&#10;         &lt;button class=&quot;btn btn-success&quot;&gt;&lt;/button&gt;&#10;     &lt;/div&gt;&#10;&lt;/div&gt;" description="Form group button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="errorclass" value="{{ $errors-&gt;has('field') ? 'has-error' : '' }}" description="Show error bootstrap" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="passwordfield" value="&lt;div class=&quot;form-group&quot;&gt;&#10;&lt;div class=&quot;col-sm-2&quot;&gt;$NAME$&lt;/div&gt;&#10;     &lt;div class=&quot;col-lg-3&quot;&gt;&#10;         &lt;input type=&quot;password&quot; name=&quot;$VALUE$&quot; class=&quot;form-control&quot;&gt;&#10;     &lt;/div&gt;&#10;&lt;/div&gt;" description="Bootstrap password field" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tooltip" value=" &lt;script type=&quot;text/javascript&quot;&gt;&#10;  &#9;$(document).ready(function() {&#10;          $('a').tooltip();&#10;     });&#10;  &lt;/script&gt;" description="Tooltip JS code" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fg" value="&lt;div class=&quot;form-group {{ $errors-&gt;has('') ? 'has-error' : '' }}&quot;&gt;&#10;    &lt;div class=&quot;col-sm-2&quot;&gt;&lt;/div&gt;&#10;    &lt;div class=&quot;col-lg-5&quot;&gt;&#10;        &lt;input type=&quot;text&quot; name=&quot;&quot; class=&quot;form-control&quot; value=&quot;{!! old('') !!}&quot;&gt;&#10;        {!! $errors-&gt;first('', '&lt;span class=&quot;help-block&quot;&gt;:message&lt;/span&gt;') !!}&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Form Group" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fb" value="&lt;div class=&quot;form-group&quot;&gt;&#10;  &lt;div class=&quot;col-lg-3&quot;&gt;&#10;     &lt;button class=&quot;btn btn-success&quot;&gt;&lt;/button&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Form group button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="lform" value="{!! Form::open(['url' =&gt; '', 'class' =&gt; 'form-horizontal']) !!}&#10;          &#10;          &#10;{!! Form::close() !!}" description="Form OPEN?CLOSE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="haserror" value="{!! $errors-&gt;has('') ? 'has-error' : '' !!}" description="Has error group form" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="errorblock" value="{!! $errors-&gt;first('', '&lt;span class=&quot;help-block&quot;&gt;:message&lt;/span&gt;') !!}" description="Error block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="flashmessage" value="@if (Session::has('flash_notification.message'))&#10;    &lt;div class=&quot;alert alert-{!! Session::get('flash_notification.level') !!}&quot;&gt;&#10;        &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;&#10;        {!! Session::get('flash_notification.message') !!}&#10;    &lt;/div&gt;&#10;@endif" description="Using Laracasts Flash Messages" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="rgroup" value="Route::group(['prefix' =&gt; '$NAME$'], function () {&#10;&#10;&#10;});" description="Route Grioup" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fgn" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-3&quot;&gt;$NAME$&lt;/div&gt;&#10;    &lt;div class=&quot;col-lg-7&quot;&gt;&#10;        &lt;input type=&quot;text&quot; name=&quot;$NAME2$&quot; class=&quot;form-control&quot; value=&quot;&quot; autocomplete=&quot;off&quot;&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Form Group no validation" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="capitalize(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME2" expression="decapitalize(String)" defaultValue="NAME" alwaysStopAt="true" />
+    <context>
+      <option name="JSP" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
