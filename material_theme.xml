@@ -12,12 +12,12 @@
     <option name="treeFontSizeEnabled" value="true" />
     <option name="upperCaseButtons" value="false" />
     <option name="useMaterialFont" value="false" />
-    <option name="useMaterialIcons" value="false" />
     <option name="useProjectViewDecorators" value="false" />
     <option name="customSidebarHeight" value="22" />
     <option name="tabOpacity" value="57" />
+    <option name="treeFontSize" value="16" />
     <option name="highlightThickness" value="3" />
-    <option name="settingsSelectedTab" value="1" />
+    <option name="settingsSelectedTab" value="3" />
     <option name="tabsHeight" value="31" />
     <option name="accentColor" value="ff1719" />
     <option name="highlightColor" value="7cb342" />
