@@ -1,16 +1,16 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="489c84c9-1ec5-49ff-b7ba-4146d4b4589f" name="47.96.19.169-BOSS-ONLINE" url="http://47.96.19.169">
-        <fileTransfer host="47.96.19.169" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/wwwroot/public/dashboard/current" accessType="SFTP" keyPair="true">
+      <webServer id="a7c6a9e1-3541-4120-a0b8-e9166b54e47c" name="172.16.0.33-33DEV-BOSS" url="http://dev-boss.thebizark.com">
+        <fileTransfer host="172.16.0.33" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/wwwroot/public/dashboard/development" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="10022" />
         </fileTransfer>
       </webServer>
-      <webServer id="a7c6a9e1-3541-4120-a0b8-e9166b54e47c" name="172.16.0.33-33DEV-BOSS" url="http://dev-boss.thebizark.com">
-        <fileTransfer host="172.16.0.33" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/wwwroot/public/dashboard/development" accessType="SFTP" keyPair="true">
+      <webServer id="489c84c9-1ec5-49ff-b7ba-4146d4b4589f" name="47.96.19.169-BOSS-ONLINE" url="http://47.96.19.169">
+        <fileTransfer host="47.96.19.169" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/wwwroot/public/dashboard/current" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
