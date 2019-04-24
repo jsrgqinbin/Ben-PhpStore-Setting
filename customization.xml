@@ -20,5 +20,10 @@
       <path value="VCS Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Vcs.Push" is_action="true" action_type="1" position="9">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
   </component>
 </application>
