@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="a7c6a9e1-3541-4120-a0b8-e9166b54e47c" name="172.16.0.33-33DEV-BOSS" url="http://dev-boss.thebizark.com">
-        <fileTransfer host="172.16.0.33" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/wwwroot/public/dashboard/development" accessType="SFTP" keyPair="true">
+        <fileTransfer host="172.16.0.33" port="10022" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/data/wwwroot/public/dashboard/current" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
