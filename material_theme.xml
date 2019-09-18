@@ -13,14 +13,15 @@
     <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
     <option name="treeFontSizeEnabled" value="true" />
+    <option name="tabFontSizeEnabled" value="true" />
     <option name="upperCaseButtons" value="false" />
     <option name="useMaterialFont" value="false" />
     <option name="customSidebarHeight" value="26" />
     <option name="tabOpacity" value="57" />
     <option name="treeFontSize" value="14" />
-    <option name="highlightThickness" value="3" />
-    <option name="settingsSelectedTab" value="2" />
-    <option name="tabsHeight" value="31" />
+    <option name="tabFontSize" value="14" />
+    <option name="highlightThickness" value="5" />
+    <option name="tabsHeight" value="40" />
     <option name="accentColor" value="ff1719" />
     <option name="highlightColor" value="7cb342" />
     <option name="selectedTheme" value="DRACULA" />
