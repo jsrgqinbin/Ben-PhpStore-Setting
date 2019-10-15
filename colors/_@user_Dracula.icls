@@ -4,12 +4,12 @@
     <property name="created">2019-09-03T18:41:06</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2019.2.0.0</property>
-    <property name="modified">2019-10-06T23:19:47</property>
+    <property name="modified">2019-10-15T09:39:29</property>
     <property name="originalScheme">Dracula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
+    <option name="EDITOR_FONT_NAME" value="YaHei Monaco Hybird" />
     <option name="EDITOR_FONT_SIZE" value="16" />
   </font>
   <font>
