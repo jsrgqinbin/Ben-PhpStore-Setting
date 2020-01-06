@@ -21,10 +21,9 @@
     <option name="treeFontSize" value="14" />
     <option name="tabFontSize" value="14" />
     <option name="highlightThickness" value="5" />
-    <option name="accentColor" value="ff79c5" />
+    <option name="accentColor" value="ff1719" />
     <option name="highlightColor" value="7cb342" />
-    <option name="selectedTheme" value="DRACULA" />
     <option name="userId" value="-48b6e44b:1660e317c05:-7fff" />
-    <option name="version" value="4.11.5" />
+    <option name="version" value="4.5.2" />
   </component>
 </application>
