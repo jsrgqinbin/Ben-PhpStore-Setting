@@ -12,7 +12,7 @@
       <sshConfig authType="PASSWORD" host="96.126.126.114" id="7fbe436d-b2c4-4418-bf27-34af72178d7d" port="22" customName="96.126.126.114-BD" nameFormat="CUSTOM" username="root" />
       <sshConfig authType="PASSWORD" host="184.173.99.50" id="328629e3-becb-411e-be4c-3e8d8569c8c5" port="22" customName="BIZARK.B2B.ONLINE.WEB" nameFormat="CUSTOM" username="root" />
       <sshConfig host="boss.thebizark.com" id="4d5db3df-2107-4506-b87f-1929d239fae5" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" nameFormat="DESCRIPTIVE" username="www" />
-      <sshConfig authType="PASSWORD" host="184.173.99.50" id="a9a5cc9b-d1db-4bc0-8d1f-ca9cc11364a6" port="22" customName="BIZARK.B2B.ONLINE.WEB" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="184.173.99.50" id="9e6ae36c-105d-49ea-9bc6-a9bf80fd4160" port="22" customName="BIZARK.B2B.ONLINE.WEB" nameFormat="CUSTOM" username="root" />
     </configs>
   </component>
 </application>
