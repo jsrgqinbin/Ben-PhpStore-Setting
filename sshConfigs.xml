@@ -1,17 +1,16 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="172.16.0.33" id="883e4ff0-5b9a-49b1-bdbd-e8f4ed060cab" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="172.16.0.33-33DEV-BOSS" nameFormat="CUSTOM" username="www" />
-      <sshConfig host="47.96.19.169" id="5d26350e-e748-4411-bfdd-420903718437" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="47.96.19.169-BOSS-ONLINE" nameFormat="CUSTOM" username="www" />
-      <sshConfig host="172.16.0.37" id="62f40174-a233-48d0-ab55-64120cbdfe08" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="172.16.0.37-TEST" nameFormat="CUSTOM" username="www" />
-      <sshConfig host="47.52.238.187" id="e07dbed4-1361-448c-9156-8899cb8bd8e8" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="47.52.238.187-HK1" nameFormat="CUSTOM" username="www" />
-      <sshConfig authType="PASSWORD" host="184.173.99.50" id="d121714f-139a-4728-8df3-343a72718803" port="22" customName="B2C.ONLINE" nameFormat="CUSTOM" username="root" />
-      <sshConfig authType="PASSWORD" host="198.58.98.164" id="c5fc8014-3c36-4865-901c-779c9bfb6e33" port="22" customName="046-ELFSACK.COM-SSH" nameFormat="CUSTOM" username="root" />
-      <sshConfig host="61.155.8.174" id="454fc9d2-4396-413a-add1-ca637ce9e098" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="61.155.8.174-NJ" nameFormat="CUSTOM" username="root" />
-      <sshConfig host="23.92.26.150" id="91e73bc0-28cd-4818-a351-0bf54fe124f4" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="23.92.26.150-yvettesportsbra.com" nameFormat="CUSTOM" username="root" />
-      <sshConfig authType="PASSWORD" host="96.126.126.114" id="7fbe436d-b2c4-4418-bf27-34af72178d7d" port="22" customName="96.126.126.114-BD" nameFormat="CUSTOM" username="root" />
-      <sshConfig authType="PASSWORD" host="184.173.99.50" id="328629e3-becb-411e-be4c-3e8d8569c8c5" port="22" customName="BIZARK.B2B.ONLINE.WEB" nameFormat="CUSTOM" username="root" />
       <sshConfig host="boss.thebizark.com" id="4d5db3df-2107-4506-b87f-1929d239fae5" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" nameFormat="DESCRIPTIVE" username="www" />
+      <sshConfig host="172.16.0.33" id="9295bef9-fcad-45bd-ae15-b0b9d6105ba4" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="172.16.0.33-33DEV-BOSS" nameFormat="CUSTOM" username="www" />
+      <sshConfig host="47.96.19.169" id="95051a12-4f36-4660-a9b8-a8950aaaf2e7" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="47.96.19.169-BOSS-ONLINE" nameFormat="CUSTOM" username="www" />
+      <sshConfig host="172.16.0.37" id="9e149f6c-7ea2-4919-85ad-2e096e4cf5bf" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="172.16.0.37-TEST" nameFormat="CUSTOM" username="www" />
+      <sshConfig host="47.52.238.187" id="9d9e6580-7030-4d5a-b165-7158799ebb46" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="47.52.238.187-HK1" nameFormat="CUSTOM" username="www" />
+      <sshConfig authType="PASSWORD" host="184.173.99.50" id="e592cb64-650f-4981-b8b5-d47c9024ee00" port="22" customName="B2C.ONLINE" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="198.58.98.164" id="680dc49e-0899-4dfd-a468-78a04fa77f5c" port="22" customName="046-ELFSACK.COM-SSH" nameFormat="CUSTOM" username="root" />
+      <sshConfig host="61.155.8.174" id="fd59545e-76bc-434a-81f9-00ba1c4c8047" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="61.155.8.174-NJ" nameFormat="CUSTOM" username="root" />
+      <sshConfig host="23.92.26.150" id="44d3a830-9580-4e96-9c1b-be8c3abf1259" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="23.92.26.150-yvettesportsbra.com" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="96.126.126.114" id="37dcd276-56d6-4a71-a790-9afb755ef425" port="22" customName="96.126.126.114-BD" nameFormat="CUSTOM" username="root" />
       <sshConfig authType="PASSWORD" host="184.173.99.50" id="5db8b29b-220f-4e06-971b-880ba3070f9b" port="22" customName="BIZARK.B2B.ONLINE.WEB" nameFormat="CUSTOM" username="root" />
     </configs>
   </component>
