@@ -5,6 +5,7 @@
       <mapping ext="tpl" type="PHP" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="htaccess" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
       <mapping pattern="text" type="PLAIN_TEXT" />
       <mapping pattern="Endicia.php" type="PLAIN_TEXT" />
