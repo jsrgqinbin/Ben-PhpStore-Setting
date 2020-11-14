@@ -8,11 +8,9 @@
     <keyboard-shortcut first-keystroke="meta alt s" />
   </action>
   <action id="ShelveChanges.UnshelveWithDialog" />
-  <action id="StringManipulation.ToPascalCaseOrCamelCase">
-    <keyboard-shortcut first-keystroke="shift meta u" />
-  </action>
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="shift meta i" />
+    <keyboard-shortcut first-keystroke="shift meta u" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
