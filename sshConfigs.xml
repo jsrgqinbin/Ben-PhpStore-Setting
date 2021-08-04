@@ -2,17 +2,37 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig host="boss.thebizark.com" id="4d5db3df-2107-4506-b87f-1929d239fae5" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" nameFormat="DESCRIPTIVE" username="www" />
-      <sshConfig host="172.16.0.33" id="9295bef9-fcad-45bd-ae15-b0b9d6105ba4" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="172.16.0.33-33DEV-BOSS" nameFormat="CUSTOM" username="www" />
-      <sshConfig host="47.96.19.169" id="95051a12-4f36-4660-a9b8-a8950aaaf2e7" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="47.96.19.169-BOSS-ONLINE" nameFormat="CUSTOM" username="www" />
-      <sshConfig host="172.16.0.37" id="9e149f6c-7ea2-4919-85ad-2e096e4cf5bf" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="172.16.0.37-TEST" nameFormat="CUSTOM" username="www" />
-      <sshConfig host="47.52.238.187" id="9d9e6580-7030-4d5a-b165-7158799ebb46" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="47.52.238.187-HK1" nameFormat="CUSTOM" username="www" />
-      <sshConfig authType="PASSWORD" host="184.173.99.50" id="e592cb64-650f-4981-b8b5-d47c9024ee00" port="22" customName="B2C.ONLINE" nameFormat="CUSTOM" username="root" />
-      <sshConfig authType="PASSWORD" host="198.58.98.164" id="680dc49e-0899-4dfd-a468-78a04fa77f5c" port="22" customName="046-ELFSACK.COM-SSH" nameFormat="CUSTOM" username="root" />
-      <sshConfig host="61.155.8.174" id="fd59545e-76bc-434a-81f9-00ba1c4c8047" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="61.155.8.174-NJ" nameFormat="CUSTOM" username="root" />
-      <sshConfig host="23.92.26.150" id="44d3a830-9580-4e96-9c1b-be8c3abf1259" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="23.92.26.150-yvettesportsbra.com" nameFormat="CUSTOM" username="root" />
-      <sshConfig authType="PASSWORD" host="96.126.126.114" id="37dcd276-56d6-4a71-a790-9afb755ef425" port="22" customName="96.126.126.114-BD" nameFormat="CUSTOM" username="root" />
-      <sshConfig authType="PASSWORD" host="184.173.99.50" id="005cb54a-09b8-4c79-a4df-76d61b32fa0b" port="22" customName="BIZARK.B2B.ONLINE.WEB" nameFormat="CUSTOM" username="root" />
-      <sshConfig host="47.52.196.211" id="6b253a7b-341f-4f65-a752-d372332ddba5" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" nameFormat="DESCRIPTIVE" username="www" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="172.16.0.33" id="9295bef9-fcad-45bd-ae15-b0b9d6105ba4" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="172.16.0.33-33DEV-BOSS" nameFormat="CUSTOM" username="www">
+        <option name="customName" value="172.16.0.33-33DEV-BOSS" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="47.96.19.169" id="95051a12-4f36-4660-a9b8-a8950aaaf2e7" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="47.96.19.169-BOSS-ONLINE" nameFormat="CUSTOM" username="www">
+        <option name="customName" value="47.96.19.169-BOSS-ONLINE" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="172.16.0.37" id="9e149f6c-7ea2-4919-85ad-2e096e4cf5bf" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="172.16.0.37-TEST" nameFormat="CUSTOM" username="www">
+        <option name="customName" value="172.16.0.37-TEST" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="47.52.238.187" id="9d9e6580-7030-4d5a-b165-7158799ebb46" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" customName="47.52.238.187-HK1" nameFormat="CUSTOM" username="www">
+        <option name="customName" value="47.52.238.187-HK1" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="184.173.99.50" id="e592cb64-650f-4981-b8b5-d47c9024ee00" port="22" customName="B2C.ONLINE" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="B2C.ONLINE" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="198.58.98.164" id="680dc49e-0899-4dfd-a468-78a04fa77f5c" port="22" customName="046-ELFSACK.COM-SSH" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="046-ELFSACK.COM-SSH" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="61.155.8.174" id="fd59545e-76bc-434a-81f9-00ba1c4c8047" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="61.155.8.174-NJ" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="61.155.8.174-NJ" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="23.92.26.150" id="44d3a830-9580-4e96-9c1b-be8c3abf1259" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="23.92.26.150-yvettesportsbra.com" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="23.92.26.150-yvettesportsbra.com" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="96.126.126.114" id="37dcd276-56d6-4a71-a790-9afb755ef425" port="22" customName="96.126.126.114-BD" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="96.126.126.114-BD" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="184.173.99.50" id="005cb54a-09b8-4c79-a4df-76d61b32fa0b" port="22" customName="BIZARK.B2B.ONLINE.WEB" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="BIZARK.B2B.ONLINE.WEB" />
+      </sshConfig>
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="47.52.196.211" id="6b253a7b-341f-4f65-a752-d372332ddba5" keyPath="$USER_HOME$/.ssh/id_rsa" port="10022" nameFormat="DESCRIPTIVE" username="www" />
       <sshConfig authType="PASSWORD" host="139.162.232.99" id="516e37a6-a2f6-4dfc-8a4c-77ec29d144be" port="22" nameFormat="DESCRIPTIVE" username="www" />
     </configs>
   </component>
