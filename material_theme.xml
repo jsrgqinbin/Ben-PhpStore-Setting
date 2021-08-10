@@ -25,10 +25,11 @@
     <option name="tabOpacity" value="57" />
     <option name="highlightThickness" value="5" />
     <option name="leftTreeIndent" value="2" />
-    <option name="rightTreeIndent" value="5" />
-    <option name="tabsHeight" value="28" />
+    <option name="rightTreeIndent" value="2" />
+    <option name="settingsSelectedTab" value="2" />
+    <option name="tabsHeight" value="25" />
     <option name="accentColor" value="5b91ff" />
-    <option name="highlightColor" value="7cb342" />
+    <option name="highlightColor" value="ff1719" />
     <option name="selectedTheme" value="NATIVE" />
     <option name="userId" value="-48b6e44b:1660e317c05:-7fff" />
     <option name="version" value="5.5.0" />
