@@ -1,17 +1,17 @@
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="c8e96b3c-3bcc-4663-a8e3-b201b69017fe" name="PHP@7.4" home="/opt/homebrew/Cellar/php@7.4/7.4.28_1/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="c8e96b3c-3bcc-4663-a8e3-b201b69017fe" name="PHP@7.4" home="/opt/homebrew/Cellar/php@7.4/7.4.30/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP@7.4">
-        <phpinfo binary_type="PHP" php_cgi="/opt/homebrew/Cellar/php@7.4/7.4.28_1/bin/php-cgi" php_cli="/opt/homebrew/Cellar/php@7.4/7.4.28_1/bin/php" path_separator=":" version="7.4.28">
+        <phpinfo binary_type="PHP" php_cgi="/opt/homebrew/Cellar/php@7.4/7.4.30/bin/php-cgi" php_cli="/opt/homebrew/Cellar/php@7.4/7.4.30/bin/php" path_separator=":" version="7.4.30">
           <additional_php_ini>/opt/homebrew/etc/php/7.4/conf.d/ext-opcache.ini, /opt/homebrew/etc/php/7.4/conf.d/igbinary.ini, /opt/homebrew/etc/php/7.4/conf.d/msgpack.ini, /opt/homebrew/etc/php/7.4/conf.d/redis.ini, /opt/homebrew/etc/php/7.4/conf.d/skywalking.ini, /opt/homebrew/etc/php/7.4/conf.d/xhprof.ini</additional_php_ini>
           <configuration_file>/opt/homebrew/etc/php/7.4/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/opt/homebrew/Cellar/php@7.4/7.4.28_1/share/php@7.4/pear" />
+            <configuration_option name="include_path" value=".:/opt/homebrew/Cellar/php@7.4/7.4.30/share/php@7.4/pear" />
           </configuration_options>
           <debuggers />
           <loaded_extensions>
@@ -66,7 +66,6 @@
             <extension name="redis" />
             <extension name="session" />
             <extension name="shmop" />
-            <extension name="skywalking" />
             <extension name="soap" />
             <extension name="sockets" />
             <extension name="sodium" />
@@ -77,7 +76,6 @@
             <extension name="sysvshm" />
             <extension name="tidy" />
             <extension name="tokenizer" />
-            <extension name="xhprof" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
